@@ -16,18 +16,21 @@ namespace SoundScheduleGen
     {
         public MappingProfiles()
         {
+            #region Class2DTO
             //********************
             // From Class to DTO
             //********************
 
             CreateMap<PersonHermano, PersonHermanoDTO>();
+            #endregion
 
-
+            #region DTO2Class
             //********************
             // From DTO to Class
             //********************
 
             CreateMap<PersonHermanoDTO, PersonHermano>();
+            #endregion
 
         }
 
