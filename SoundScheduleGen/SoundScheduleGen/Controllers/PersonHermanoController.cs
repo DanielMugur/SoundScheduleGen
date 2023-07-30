@@ -9,15 +9,15 @@ namespace SoundScheduleGen.Controllers
     public class PersonHermanoController : Controller
     {
         #region private readonly properties
-        private readonly IMapper _mapper;
+        //private readonly IMapper _mapper;
         private readonly PersonHermanoController objPersonHermano;
         private readonly ILogger<PersonHermanoController> _logger;
         #endregion
 
         #region constructor and config
-        public PersonHermanoController(IMapper mapper, ILogger<PersonHermanoController> logger)
+        public PersonHermanoController(/*IMapper mapper,*/ ILogger<PersonHermanoController> logger)
         {
-            _mapper = mapper;
+            //_mapper = mapper;
             _logger = logger;
         }
         #endregion
