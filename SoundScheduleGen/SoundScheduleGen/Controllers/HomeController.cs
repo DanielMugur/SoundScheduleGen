@@ -6,13 +6,18 @@ namespace SoundScheduleGen.Controllers
 {
     public class HomeController : Controller
     {
+        #region private readonly properties
         private readonly ILogger<HomeController> _logger;
+        #endregion
 
+        #region Constructor and config
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+        #endregion
 
+        #region Actions
         public IActionResult Index()
         {
             return View();
@@ -28,5 +33,6 @@ namespace SoundScheduleGen.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        #endregion
     }
 }
