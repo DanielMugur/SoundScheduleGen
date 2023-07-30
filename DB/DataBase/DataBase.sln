@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataBase", "DataBase\DataBase.sqlproj", "{56F1D5AF-E910-498F-9DB6-BC414A518091}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AlgSonidoVideo", "DataBase\AlgSonidoVideo.sqlproj", "{56F1D5AF-E910-498F-9DB6-BC414A518091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
